@@ -1,0 +1,24 @@
+calculateRectangleArea(length, width) {
+var area;
+if (!Number.isNaN(area)) {
+  area = length * width;
+  }
+return area;
+}
+
+
+calculateTriangleArea(base, height) {
+var area;
+if (!Number.isNaN(area)) {
+  area = base * height / 2;
+  }
+return area;
+}
+
+calculateCircleArea(radius) {
+var area;
+if (!Number.isNaN(area)) {
+  area = (radius^2)*Math.PI;
+  }
+return area;
+}
