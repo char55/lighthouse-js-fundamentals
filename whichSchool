@@ -1,0 +1,12 @@
+function whichSchool(age) {
+var answer;
+if (age < 13) {
+  answer =  "Elementary School"
+} else if (age >= 13 && age <=18) {
+  answer = "Secondary School";
+} else {
+  answer = "Lighthouse Labs";
+}
+
+return answer;
+}
