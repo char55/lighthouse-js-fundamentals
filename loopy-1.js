@@ -7,8 +7,11 @@ If the number is a multiple of both 3 and 4, print the string "LoopyLighthouse" 
 */
 
 function loopy() {
+start = 100;
+end = 200+1;
 
-  for (var i=100; i <= 200; i++) {
+  
+  for (var i=start; i < end; i++) {
     if (i % 3 === 0) {
       console.log("Loopy")
     } else if (i % 4 === 0) {
